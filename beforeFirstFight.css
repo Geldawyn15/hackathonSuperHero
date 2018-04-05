@@ -1,0 +1,13 @@
+.text{
+    font-size: 40px;
+    background-color: rgba(177,182,191, 0.7);
+    border-radius:1rem;
+    margin-top:750px;
+    text-align: center;
+}
+body{
+    background-image: url(https://i.imgur.com/J6Vm4iq.jpg);
+}
+.btn{
+    margin-left: 50%;
+}
