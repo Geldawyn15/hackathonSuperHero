@@ -17,6 +17,8 @@ if ($turn == 0){
 $dodge = $target->dodge($target);
 if ($dodge == 0) {
     echo $attacker->attack($attacker, $target);
+}else {
+    echo $target->health;
 }
 
 

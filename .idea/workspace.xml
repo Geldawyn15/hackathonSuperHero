@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="00ac6a08-efa5-435b-b74f-09278f847ef5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/caroussel.html" afterPath="$PROJECT_DIR$/caroussel.php" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/personnages.php" afterPath="$PROJECT_DIR$/personnages.php" />
-=======
-<<<<<<< HEAD
-    <list default="true" id="00ac6a08-efa5-435b-b74f-09278f847ef5" name="Default" comment="" />
-=======
-    <list default="true" id="65135a7c-3d9b-40d1-8596-f4768a1b5129" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/impasse.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/perteBadge.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/style4.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/style5.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/style6.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/winner.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/style3.css" afterPath="$PROJECT_DIR$/style3.css" />
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,84 +17,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
       <file leaf-file-name="charChoice.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/charChoice.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="792">
               <caret line="65" column="10" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="65" selection-end-column="10" />
-=======
-<<<<<<< HEAD
-      <file leaf-file-name="caroussel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/caroussel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="66" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="perteBadge.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/perteBadge.html">
-=======
-<<<<<<< HEAD
-      <file leaf-file-name="data.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
->>>>>>> 9ecf10dd675a96e215a6de5f53a6a26e04592741
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
       <file leaf-file-name="personnages.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personnages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+            <state relative-caret-position="612">
+              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
               <folding>
-                <marker date="1522966448870" expanded="true" signature="639:1034" ph="..." />
-                <marker date="1522966448870" expanded="true" signature="646:837" ph="..." />
-                <marker date="1522966448870" expanded="true" signature="844:1034" ph="..." />
-                <marker date="1522966448870" expanded="true" signature="911:1034" ph="..." />
-                <marker date="1522966448870" expanded="true" signature="933:1034" ph="..." />
-                <marker date="1522966448870" expanded="true" signature="1472:1535" ph="..." />
-                <marker date="1522966448870" expanded="true" signature="1642:1702" ph="..." />
+                <marker date="1522969310078" expanded="true" signature="639:1034" ph="..." />
+                <marker date="1522969310078" expanded="true" signature="646:837" ph="..." />
+                <marker date="1522969310078" expanded="true" signature="844:1034" ph="..." />
+                <marker date="1522969310078" expanded="true" signature="911:1034" ph="..." />
+                <marker date="1522969310078" expanded="true" signature="933:1034" ph="..." />
+                <marker date="1522969310078" expanded="true" signature="1472:1535" ph="..." />
+                <marker date="1522969310078" expanded="true" signature="1642:1702" ph="..." />
               </folding>
-=======
-      <file leaf-file-name="style4.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style4.css">
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style3.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style3.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
       <file leaf-file-name="caroussel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caroussel.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,57 +76,15 @@
                 <marker date="1522966448862" expanded="true" signature="2849:2980" ph="..." />
                 <marker date="1522966448862" expanded="true" signature="3084:3211" ph="..." />
               </folding>
-=======
-      <file leaf-file-name="impasse.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impasse.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style5.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style5.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
-              <folding />
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
       <file leaf-file-name="data.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-      <file leaf-file-name="winner.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/winner.html">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="198">
-              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style6.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style6.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-=======
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
->>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
->>>>>>> 9ecf10dd675a96e215a6de5f53a6a26e04592741
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
               <folding />
             </state>
           </provider>
@@ -197,20 +99,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/personnages.html" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/caroussel.php" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/personnages.php" />
-=======
-        <option value="$PROJECT_DIR$/style2.css" />
-        <option value="$PROJECT_DIR$/caroussel.html" />
-        <option value="$PROJECT_DIR$/style3.css" />
-        <option value="$PROJECT_DIR$/perteBadge.html" />
-        <option value="$PROJECT_DIR$/style4.css" />
-        <option value="$PROJECT_DIR$/impasse.html" />
-        <option value="$PROJECT_DIR$/style5.css" />
-        <option value="$PROJECT_DIR$/style6.css" />
-        <option value="$PROJECT_DIR$/winner.html" />
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
       </list>
     </option>
   </component>
@@ -294,50 +185,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522932805608</updated>
-<<<<<<< HEAD
-      <workItem from="1522932806912" duration="6060000" />
-=======
-      <workItem from="1522932806912" duration="1846000" />
-=======
-      <changelist id="65135a7c-3d9b-40d1-8596-f4768a1b5129" name="Default" comment="" />
-      <created>1522945389786</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1522945389786</updated>
-<<<<<<< HEAD
-      <workItem from="1522945390873" duration="17084000" />
-=======
-      <workItem from="1522945390873" duration="10598000" />
->>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
->>>>>>> 9ecf10dd675a96e215a6de5f53a6a26e04592741
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
+      <workItem from="1522932806912" duration="6880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="6060000" />
+    <option name="totallyTimeSpent" value="6880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="166" y="57" width="1535" height="904" extended-state="6" />
-=======
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="17084000" />
-=======
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="1846000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="166" y="57" width="1535" height="904" extended-state="6" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24983211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
-    <option name="totallyTimeSpent" value="10598000" />
->>>>>>> 9ecf10dd675a96e215a6de5f53a6a26e04592741
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="74" y="64" width="1857" height="1092" extended-state="6" />
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124916054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -359,26 +215,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -413,43 +249,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/data.php">
-=======
-    <entry file="file://$PROJECT_DIR$/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/perso.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personnages.html">
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -457,7 +257,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/caroussel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -478,97 +277,30 @@
             <marker date="1522966448862" expanded="true" signature="2849:2980" ph="..." />
             <marker date="1522966448862" expanded="true" signature="3084:3211" ph="..." />
           </folding>
-=======
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="180">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style5.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impasse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/perteBadge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/personnages.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="450">
-          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+        <state relative-caret-position="612">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding>
-            <marker date="1522966448870" expanded="true" signature="639:1034" ph="..." />
-            <marker date="1522966448870" expanded="true" signature="646:837" ph="..." />
-            <marker date="1522966448870" expanded="true" signature="844:1034" ph="..." />
-            <marker date="1522966448870" expanded="true" signature="911:1034" ph="..." />
-            <marker date="1522966448870" expanded="true" signature="933:1034" ph="..." />
-            <marker date="1522966448870" expanded="true" signature="1472:1535" ph="..." />
-            <marker date="1522966448870" expanded="true" signature="1642:1702" ph="..." />
+            <marker date="1522969310078" expanded="true" signature="639:1034" ph="..." />
+            <marker date="1522969310078" expanded="true" signature="646:837" ph="..." />
+            <marker date="1522969310078" expanded="true" signature="844:1034" ph="..." />
+            <marker date="1522969310078" expanded="true" signature="911:1034" ph="..." />
+            <marker date="1522969310078" expanded="true" signature="933:1034" ph="..." />
+            <marker date="1522969310078" expanded="true" signature="1472:1535" ph="..." />
+            <marker date="1522969310078" expanded="true" signature="1642:1702" ph="..." />
           </folding>
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="648">
-          <caret line="36" column="66" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style6.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-=======
-        <state relative-caret-position="507">
-          <caret line="35" column="129" lean-forward="false" selection-start-line="35" selection-start-column="129" selection-end-line="35" selection-end-column="129" />
->>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
->>>>>>> 9ecf10dd675a96e215a6de5f53a6a26e04592741
-          <folding />
->>>>>>> de45066243511e4dfca16141129fe64e2139273b
         </state>
       </provider>
     </entry>
