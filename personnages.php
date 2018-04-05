@@ -53,7 +53,7 @@ $randHero = array_rand($selectedHeores, 12);
                 <a href="caroussel.php?id_user_char=<?=$selectedHeores[$eaHero]['id']?>">
 
                     <img src="<?=$selectedHeores[$eaHero]['images']['md']?>" >
-                </a> >
+                </a> 
 
                 <table class="table">
                 <thead>
