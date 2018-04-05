@@ -1,4 +1,6 @@
 <?php
+session_start();
+$_SESSION['character'] =
 require_once 'data.php';
 $totalStats = 0;
 $selectedHeores = [];
@@ -46,9 +48,12 @@ $randHero = array_rand($selectedHeores, 12);
             ?>
             <div class="col-md-3 offset-1">
                 <h2 class="name"><?= $selectedHeores[$eaHero]['name'] ?></h2>
-                <a href="https://placeholder.com">
+
+
+                <a href="caroussel.php?id_user_char=<?=$selectedHeores[$eaHero]['id']?>">
+
                     <img src="<?=$selectedHeores[$eaHero]['images']['md']?>" >
-                </a>
+                </a> >
 
                 <table class="table">
                 <thead>
