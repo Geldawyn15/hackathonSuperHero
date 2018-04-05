@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+    <list default="true" id="00ac6a08-efa5-435b-b74f-09278f847ef5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/caroussel.html" afterPath="$PROJECT_DIR$/caroussel.php" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/personnages.php" afterPath="$PROJECT_DIR$/personnages.php" />
+=======
+<<<<<<< HEAD
     <list default="true" id="00ac6a08-efa5-435b-b74f-09278f847ef5" name="Default" comment="" />
 =======
     <list default="true" id="65135a7c-3d9b-40d1-8596-f4768a1b5129" name="Default" comment="">
@@ -13,8 +19,8 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/winner.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/style3.css" afterPath="$PROJECT_DIR$/style3.css" />
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
     </list>
->>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +33,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
+      <file leaf-file-name="charChoice.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/charChoice.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="65" column="10" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="65" selection-end-column="10" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="caroussel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caroussel.html">
@@ -54,11 +67,28 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
               <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="personnages.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/personnages.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+              <folding>
+                <marker date="1522966448870" expanded="true" signature="639:1034" ph="..." />
+                <marker date="1522966448870" expanded="true" signature="646:837" ph="..." />
+                <marker date="1522966448870" expanded="true" signature="844:1034" ph="..." />
+                <marker date="1522966448870" expanded="true" signature="911:1034" ph="..." />
+                <marker date="1522966448870" expanded="true" signature="933:1034" ph="..." />
+                <marker date="1522966448870" expanded="true" signature="1472:1535" ph="..." />
+                <marker date="1522966448870" expanded="true" signature="1642:1702" ph="..." />
+              </folding>
+=======
       <file leaf-file-name="style4.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style4.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,10 +105,34 @@
             <state relative-caret-position="90">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="caroussel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/caroussel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <marker date="1522966448862" expanded="true" signature="166:2073" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="173:962" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="969:2073" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="1051:2073" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="1088:1344" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="1382:2073" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="1425:1822" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="1584:1807" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="1858:2073" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="2018:2073" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="2202:2468" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="2361:2468" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="2849:2980" ph="..." />
+                <marker date="1522966448862" expanded="true" signature="3084:3211" ph="..." />
+              </folding>
+=======
       <file leaf-file-name="impasse.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impasse.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,10 +149,18 @@
             <state relative-caret-position="216">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
               <folding />
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="data.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
       <file leaf-file-name="winner.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/winner.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,6 +182,7 @@
               <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
 >>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
 >>>>>>> 9ecf10dd675a96e215a6de5f53a6a26e04592741
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
               <folding />
             </state>
           </provider>
@@ -130,17 +193,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< HEAD
-=======
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/index.css" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/perso.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/personnages.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/caroussel.php" />
+        <option value="$PROJECT_DIR$/personnages.php" />
+=======
         <option value="$PROJECT_DIR$/style2.css" />
         <option value="$PROJECT_DIR$/caroussel.html" />
         <option value="$PROJECT_DIR$/style3.css" />
@@ -150,10 +210,10 @@
         <option value="$PROJECT_DIR$/style5.css" />
         <option value="$PROJECT_DIR$/style6.css" />
         <option value="$PROJECT_DIR$/winner.html" />
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
       </list>
     </option>
   </component>
->>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -162,7 +222,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
-<<<<<<< HEAD
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
@@ -175,20 +234,6 @@
     <option name="y" value="57" />
     <option name="width" value="946" />
     <option name="height" value="840" />
-=======
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
-    </include_path>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="74" />
-    <option name="y" value="64" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
->>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -205,7 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -225,21 +269,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-=======
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
->>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -260,12 +289,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
       <changelist id="00ac6a08-efa5-435b-b74f-09278f847ef5" name="Default" comment="" />
       <created>1522932805608</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522932805608</updated>
+<<<<<<< HEAD
+      <workItem from="1522932806912" duration="6060000" />
+=======
       <workItem from="1522932806912" duration="1846000" />
 =======
       <changelist id="65135a7c-3d9b-40d1-8596-f4768a1b5129" name="Default" comment="" />
@@ -279,10 +310,17 @@
       <workItem from="1522945390873" duration="10598000" />
 >>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
 >>>>>>> 9ecf10dd675a96e215a6de5f53a6a26e04592741
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="6060000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="166" y="57" width="1535" height="904" extended-state="6" />
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="17084000" />
 =======
@@ -299,10 +337,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="64" width="1857" height="1092" extended-state="6" />
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124916054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -310,7 +348,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -345,21 +383,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-<<<<<<< HEAD
-=======
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.html" />
-  </component>
->>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../../Quête PHP non corrigée/UploadFile/affichage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -372,19 +405,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.php">
+    <entry file="file://$PROJECT_DIR$/charChoice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="792">
+          <caret line="65" column="10" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="65" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/data.php">
+=======
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -418,13 +449,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/personnages.html">
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/caroussel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1522966448862" expanded="true" signature="166:2073" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="173:962" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="969:2073" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="1051:2073" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="1088:1344" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="1382:2073" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="1425:1822" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="1584:1807" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="1858:2073" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="2018:2073" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="2202:2468" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="2361:2468" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="2849:2980" ph="..." />
+            <marker date="1522966448862" expanded="true" signature="3084:3211" ph="..." />
+          </folding>
+=======
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -470,11 +524,25 @@
         <state relative-caret-position="234">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding />
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caroussel.html">
+    <entry file="file://$PROJECT_DIR$/personnages.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="450">
+          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+          <folding>
+            <marker date="1522966448870" expanded="true" signature="639:1034" ph="..." />
+            <marker date="1522966448870" expanded="true" signature="646:837" ph="..." />
+            <marker date="1522966448870" expanded="true" signature="844:1034" ph="..." />
+            <marker date="1522966448870" expanded="true" signature="911:1034" ph="..." />
+            <marker date="1522966448870" expanded="true" signature="933:1034" ph="..." />
+            <marker date="1522966448870" expanded="true" signature="1472:1535" ph="..." />
+            <marker date="1522966448870" expanded="true" signature="1642:1702" ph="..." />
+          </folding>
+=======
 <<<<<<< HEAD
         <state relative-caret-position="648">
           <caret line="36" column="66" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="66" />
@@ -500,6 +568,7 @@
 >>>>>>> 4e3dd0e10c1abc8b67a2fff9ee700d736a39c808
 >>>>>>> 9ecf10dd675a96e215a6de5f53a6a26e04592741
           <folding />
+>>>>>>> de45066243511e4dfca16141129fe64e2139273b
         </state>
       </provider>
     </entry>
