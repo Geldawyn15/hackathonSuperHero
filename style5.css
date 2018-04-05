@@ -1,0 +1,17 @@
+.text {
+    font-size: 40px;
+    background-color: rgba(177, 182, 191, 0.7);
+    border-radius: 1rem;
+    margin-top: 350px;
+}
+
+body{
+    background-image: url(https://i.imgur.com/RZYLgFX.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+h1{
+    font-size: 300px;
+    font-family: 'VT323';
+    text-align:center;
+}
