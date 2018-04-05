@@ -8,7 +8,7 @@ $n = rand(1, 563);
 
 $char1 = new heroes($dataArray[$n]);
 $testChar = new heroes($dataArray[55]);
-$enemy = new heroes($dataArray[44]);
+$enemy = new heroes($dataArray[31]);
 //var_dump($char1);
 //echo $char1->getsSats();
 
