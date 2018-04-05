@@ -1,0 +1,16 @@
+body {
+    background: url("https://i.imgur.com/FChGk4z.jpg");
+    background-size: cover;
+}
+.arena {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.row {
+    margin-top: 250px;
+}
+.name {
+    text-align: center;
+}

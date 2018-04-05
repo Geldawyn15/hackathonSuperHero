@@ -1,0 +1,17 @@
+.Boss{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+body {
+    background: url("https://i.imgur.com/T15PpVQ.jpg?1");
+    background-size: cover;
+}
+.text {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 500px;
+    background-color: rgba(177, 182, 191, 0.7);
+    border-radius: 1rem;
+}
