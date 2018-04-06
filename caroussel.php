@@ -2,10 +2,8 @@
 require 'data.php';
 session_start();
 if (isset($_GET['id_user_char'])) {
-    $_SESSION['mainCharacter'] = $_GET['id_user_char'];
+     $_SESSION['mainCharacter'] = $_GET['id_user_char'];
 }
-
-
 ?>
 
 

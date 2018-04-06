@@ -1,10 +1,9 @@
 <?php
-session_start();
-$_SESSION['character'] =
+
 require_once 'data.php';
 $totalStats = 0;
 $selectedHeores = [];
-foreach ($dataArray as $hero) {
+/*foreach ($dataArray as $hero) {
     $int = $hero['powerstats']['intelligence'];
     $str = $hero['powerstats']['strength'];
     $spd = $hero['powerstats']['speed'];
@@ -18,9 +17,14 @@ foreach ($dataArray as $hero) {
 
     if ($totalStats <= 450) {
         $selectedHeores[] = $hero;
+
     }
+
 }
-$randHero = array_rand($selectedHeores, 12);
+$randHero = array_rand($selectedHeores, 12); */
+
+
+
 ?>
 
 <! DOCTYPE html>
@@ -38,7 +42,7 @@ $randHero = array_rand($selectedHeores, 12);
     <div class="row">
 
         <?php
-        foreach ($randHero as $eaHero) {
+       /* foreach ($ennemi as $eaHero) {
             $int = $selectedHeores[$eaHero]['powerstats']['intelligence'];
             $str = $selectedHeores[$eaHero]['powerstats']['strength'];
             $spd = $selectedHeores[$eaHero]['powerstats']['speed'];
@@ -46,14 +50,15 @@ $randHero = array_rand($selectedHeores, 12);
             $pow = $selectedHeores[$eaHero]['powerstats']['power'];
             $cmb = $selectedHeores[$eaHero]['powerstats']['combat'];
             ?>
+
             <div class="col-md-3 offset-1">
                 <h2 class="name"><?= $selectedHeores[$eaHero]['name'] ?></h2>
 
 
                 <a href="caroussel.php?id_user_char=<?=$selectedHeores[$eaHero]['id']?>">
 
-                    <img src="<?=$selectedHeores[$eaHero]['images']['md']?>" >
-                </a> 
+                    <img src="<?=$dataArray[0]['images']['md']?>" >
+                </a>
 
                 <table class="table">
                 <thead>
