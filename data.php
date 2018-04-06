@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
 
 <?php
-
+session_start();
 require 'vendor/autoload.php';
 
 $client = new GuzzleHttp\Client([

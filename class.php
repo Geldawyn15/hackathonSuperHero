@@ -1,7 +1,7 @@
 <?php
-require 'data.php';
+require_once 'data.php';
 
-class heroes
+class Heroes
 {
     const HEALTH_BASE = 100;
     public $health;

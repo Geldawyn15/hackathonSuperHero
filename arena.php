@@ -1,31 +1,35 @@
 <?php
 
-session_start();
+
 require 'data.php';
 require 'class.php';
+
 //require 'test.php';
 
 $charaPlayer = intval($_SESSION['mainCharacter']);
-$mainPlayer = new heroes($realData[$charaPlayer]);
+var_dump(($_SESSION['mainCharacter']));
+$mainPlayer = new Heroes($realData[$charaPlayer]);
 
 
-session_start();
+
 
 if ($_SERVER['REQUEST_METHOD'] == "GET" ){
-   $_SESSION = [];
+    unset($_SESSION['enemyHealthCurrent']);
+    unset($_SESSION['userHealthCurrent']);
+
     $_SESSION['turn'] = 0;
 
 }
 
 
-require 'test.php';
+
 
 
 if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
 
     $turn = $_SESSION['turn'];
     if ($turn == 0){
-        $attacker = $testChar;
+        $attacker = $mainPlayer;
         $target = $enemy;
         $turn++;
         $_SESSION['turn'] = $turn;
@@ -44,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
     }
     if ($turn == 1){
         $attacker = $enemy;
-        $target = $testChar;
+        $target = $mainPlayer;
         $turn--;
         $_SESSION['turn'] = $turn;
         if (isset($_SESSION['userHealthCurrent'])){
@@ -80,8 +84,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
     <div class="row">
         <div class="col-md-2">
             <div class="card" style="width: 18rem;">
-                <p class="name">martin</p>
-                <img class="card-img-top" src= "<?php echo $testChar->image; ?>" alt= "Card image cap">
+                <p class="name">matin</p>
+                <img class="card-img-top" src= "<?php echo $mainPlayer->image; ?>" alt= "Card image cap">
                 <div class="card-body">
                     <table class="table">
                         <thead>
@@ -96,12 +100,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
                                 <?php if (isset($_SESSION['userHealthCurrent'])) {
                                     echo $_SESSION['userHealthCurrent'];
                                 }else{
-                                    echo $testChar->health;
+                                    echo $mainPlayer->health;
                                 }
                                 ?>
                             </td>
                             <td scope="col">
-                                <?php echo $testChar->health;?>
+                                <?php echo $mainPlayer->health;?>
                             </td>
                         </tr>
                         </tbody>
