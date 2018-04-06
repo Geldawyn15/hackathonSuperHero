@@ -1,6 +1,5 @@
 <?php
 require 'data.php';
-//namespace Hackathon;
 
 class heroes
 {
@@ -35,19 +34,18 @@ class heroes
         $this->attack = ($this->strength + $this->intelligence + $this->power)/2;
         $this->dodge = $this->speed/2;
         $this->image = $heroCase['images']['lg'];
+        $this->currentHealth=$this->health;
+        $this->id = $heroCase;
     }
 
     public function dodge($target){
         $roll = rand(1, 100);
+        $dodge = 0;
         if ($roll > $target->dodge){
             $dodge = 0;
         }elseif ($roll < $target->dodge){
             $dodge = 1;
         }return $dodge;
-    }
-    public function attack($attacker, $target){
-        $target->currentHealth = $target->health - $attacker->attack;
-        return $target->health;
     }
     public function getImage(){
     return $this->image;

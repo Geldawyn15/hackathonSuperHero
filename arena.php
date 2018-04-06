@@ -1,21 +1,58 @@
 <?php
-//include "combat.php";
+
+session_start();
+
+if ($_SERVER['REQUEST_METHOD'] == "GET" ){
+   $_SESSION = [];
+    $_SESSION['turn'] = 0;
+
+}
+
+
 require 'test.php';
 
-$turn = 0;
 
-if ($turn == 0){
-    $attacker = $testChar;
-    $target = $enemy;
-}elseif ($turn == 1){
-    $attacker = $enemy;
-    $target = $testChar;
-}
-$dodge = $target->dodge($target);
-if ($dodge == 0) {
-    echo $attacker->attack($attacker, $target);
-}else {
-    $healthCurrent = $target->health;
+
+if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
+
+    $turn = $_SESSION['turn'];
+    if ($turn == 0){
+        $attacker = $testChar;
+        $target = $enemy;
+        $turn++;
+        $_SESSION['turn'] = $turn;
+        if (isset($_SESSION['enemyHealthCurrent'])){
+            $target->currentHealth = $_SESSION['enemyHealthCurrent'];
+        }
+        $dodge = $target->dodge($target);
+        if ($dodge == 0) {
+            $target->currentHealth = $target->currentHealth - $attacker->attack;
+            if ($target->currentHealth <= 0){
+                $target->currentHealth = 0;
+            }
+            $_SESSION['enemyHealthCurrent'] = $target->currentHealth;
+        }
+
+    }
+    if ($turn == 1){
+        $attacker = $enemy;
+        $target = $testChar;
+        $turn--;
+        $_SESSION['turn'] = $turn;
+        if (isset($_SESSION['userHealthCurrent'])){
+            $target->currentHealth = $_SESSION['userHealthCurrent'];
+        }
+        $dodge = $target->dodge($target);
+        if ($dodge == 0) {
+            $target->currentHealth = $target->currentHealth - $attacker->attack;
+            if ($target->currentHealth <= 0){
+                $target->currentHealth = 0;
+            }
+            $_SESSION['userHealthCurrent'] = $target->currentHealth;
+
+        }
+    }
+
 }
 
 
@@ -33,7 +70,7 @@ if ($dodge == 0) {
 <h1 class="arena">Bienvenue dans l'arène</h1>
 <div class="container">
     <div class="row">
-        <div class="col-md-5 offset-1">
+        <div class="col-md-2">
             <div class="card" style="width: 18rem;">
                 <p class="name">martin</p>
                 <img class="card-img-top" src= "<?php echo $testChar->image; ?>" alt= "Card image cap">
@@ -48,7 +85,12 @@ if ($dodge == 0) {
                         <tbody>
                         <tr>
                             <td scope="col">
-                                <?php echo $testChar->currentHealth;?>
+                                <?php if (isset($_SESSION['userHealthCurrent'])) {
+                                    echo $_SESSION['userHealthCurrent'];
+                                }else{
+                                    echo $testChar->health;
+                                }
+                                ?>
                             </td>
                             <td scope="col">
                                 <?php echo $testChar->health;?>
@@ -59,7 +101,14 @@ if ($dodge == 0) {
                 </div>
             </div>
         </div>
-        <div class="col-md-5 offset-1">
+        <div class="col-md-1 offset-3">
+            <div>
+                <form action="" method="post">
+                <input type="submit" class="btn " value="Attack" name="Attack">
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 offset-2">
             <div class="card" style="width: 18rem;">
                 <p class="name">martin</p>
                 <img class="card-img-top" src="<?php echo $enemy->image; ?>" alt="Card image cap">
@@ -74,7 +123,11 @@ if ($dodge == 0) {
                         <tbody>
                         <tr>
                             <td scope="col">
-                                <?php echo $target->health;?>
+                                <?php  if (isset ($_SESSION['enemyHealthCurrent'])){
+                                    echo $_SESSION['enemyHealthCurrent'];
+                                } else {
+                                    echo $enemy->health;
+                                } ;?>
                             </td>
                             <td scope="col">
                                 <?php echo $enemy->health;?>
