@@ -1,5 +1,7 @@
 <?php
 require_once 'class.php';
+require_once 'data.php';
+$charaPlayer = intval($_SESSION['mainCharacter']);
 $mainPlayer = new Heroes($realData[$charaPlayer]);
 $enemy1 = new Heroes ($realData[$_SESSION['enemy1']['id']]);
 ?>
@@ -20,16 +22,16 @@ $enemy1 = new Heroes ($realData[$_SESSION['enemy1']['id']]);
     <div class="row">
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
-                <p class="name">Vainqueur: martin</p>
+                <p class="name">Vainqueur: <?= $mainPlayer->name ?></p>
                 <img class="card-img-top" src="<?= $mainPlayer->image ?>" alt= "Card image cap">
-                <p class="vie">Il reste ..... de vie au héro.</p>
+                <p class="vie">Notre héro sort vainqueur du combat !</p>
             </div>
         </div>
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
-                <p class="name">Perdant: martin</p>
-                <img class="card-img-top" src="<?= $enemy->image?>" alt= "Card image cap">
-                <p class="vie">Le héro a été vaincu.</p>
+                <p class="name">Perdant: <?= $enemy1->name ?></p>
+                <img class="card-img-top" src="<?= $enemy1->image ?>" alt= "Card image cap">
+                <p class="vie">Le méchant a été vaincu.</p>
             </div>
         </div>
     </div>
