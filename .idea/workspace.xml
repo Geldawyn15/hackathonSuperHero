@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ac6a08-efa5-435b-b74f-09278f847ef5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/arena.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arena.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/beforeFirstFight.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/beforeFirstFight.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/visuBoss.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/visuBoss.html" />
       <change beforePath="$PROJECT_DIR$/caroussel.php" afterPath="$PROJECT_DIR$/caroussel.php" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/personnages.php" afterPath="$PROJECT_DIR$/personnages.php" />
@@ -204,12 +210,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522932805608</updated>
-      <workItem from="1522932806912" duration="16669000" />
+      <workItem from="1522932806912" duration="17084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16669000" />
+    <option name="totallyTimeSpent" value="17084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="166" y="57" width="1535" height="904" extended-state="6" />
