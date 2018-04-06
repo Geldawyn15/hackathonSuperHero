@@ -1,3 +1,11 @@
+<?php
+require_once 'class.php';
+require_once 'data.php';
+$charaPlayer = intval($_SESSION['mainCharacter']);
+$mainPlayer = new Heroes($realData[$charaPlayer]);
+$enemy2 = new Heroes ($realData[$_SESSION['enemy2']['id']]);
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -10,26 +18,24 @@
 <body>
 <h1 class="title">Statistiques du combat</h1>
 
-
 <div class="container">
     <div class="row">
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
-                <p class="name">Vainqueur: martin</p>
-                <img class="card-img-top" src="http://via.placeholder.com/350x150" alt= "Card image cap">
-                <p class="vie">Il reste ..... de vie au héro.</p>
+                <p class="name">Vainqueur: <?= $mainPlayer->name ?></p>
+                <img class="card-img-top" src="<?= $mainPlayer->image ?>" alt= "Card image cap">
+                <p class="vie">Notre héro sort vainqueur du combat !</p>
             </div>
         </div>
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
-                <p class="name">Perdant: martin</p>
-                <img class="card-img-top" src="http://via.placeholder.com/350x150" alt= "Card image cap">
-                <p class="vie">Le héro a été vaincu.</p>
+                <p class="name">Perdant: <?= $enemy2->name ?></p>
+                <img class="card-img-top" src="<?= $enemy2->image ?>" alt= "Card image cap">
+                <p class="vie">Le méchant a été vaincu.</p>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="container">
     <div class="row">
