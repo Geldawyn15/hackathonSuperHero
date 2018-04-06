@@ -4,3 +4,6 @@
     border-radius:1rem;
 }
 
+$('.carousel').carousel({
+    interval: 2000
+})
