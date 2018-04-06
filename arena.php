@@ -9,7 +9,6 @@ $charaPlayer = intval($_SESSION['mainCharacter']);
 $mainPlayer = new heroes($realData[$charaPlayer]);
 
 
-session_start();
 
 if ($_SERVER['REQUEST_METHOD'] == "GET" ){
    $_SESSION = [];
@@ -17,8 +16,6 @@ if ($_SERVER['REQUEST_METHOD'] == "GET" ){
 
 }
 
-
-require 'test.php';
 
 
 if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
