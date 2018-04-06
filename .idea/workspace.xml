@@ -3,11 +3,16 @@
   <component name="ChangeListManager">
 <<<<<<< HEAD
     <list default="true" id="00ac6a08-efa5-435b-b74f-09278f847ef5" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/arena.php" afterPath="$PROJECT_DIR$/arena.php" />
+      <change beforePath="$PROJECT_DIR$/perteBadge.html" afterPath="$PROJECT_DIR$/perteBadge.html" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/arena.php" afterPath="$PROJECT_DIR$/arena.php" />
       <change beforePath="$PROJECT_DIR$/caroussel.php" afterPath="$PROJECT_DIR$/caroussel.php" />
       <change beforePath="$PROJECT_DIR$/class.php" afterPath="$PROJECT_DIR$/class.php" />
       <change beforePath="$PROJECT_DIR$/data.php" afterPath="$PROJECT_DIR$/data.php" />
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
     </list>
 =======
     <list default="true" id="00ac6a08-efa5-435b-b74f-09278f847ef5" name="Default" comment="" />
@@ -24,8 +29,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.php">
+=======
       <file leaf-file-name="funcGetEnemy.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/funcGetEnemy.php">
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
             <state relative-caret-position="144">
@@ -50,9 +60,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arena.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="arena.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arena.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="576">
+              <caret line="95" column="3" lean-forward="false" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="perteBadge.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/perteBadge.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="73" lean-forward="false" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding />
+=======
             <state relative-caret-position="36">
               <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
@@ -67,6 +102,7 @@
                 <marker date="1523009264038" expanded="true" signature="4649:4992" ph="..." />
                 <marker date="1523009264038" expanded="true" signature="4730:4825" ph="..." />
               </folding>
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
             </state>
           </provider>
         </entry>
@@ -124,6 +160,11 @@
       <file leaf-file-name="testperso.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testperso.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="54">
+              <caret line="3" column="108" lean-forward="false" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
+              <folding />
+=======
             <state relative-caret-position="18">
               <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding>
@@ -133,6 +174,7 @@
                 <marker date="1523005678371" expanded="true" signature="1546:1934" ph="..." />
                 <marker date="1523005678371" expanded="true" signature="1569:1909" ph="..." />
               </folding>
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
             </state>
           </provider>
         </entry>
@@ -167,7 +209,11 @@
         <option value="$PROJECT_DIR$/data.php" />
         <option value="$PROJECT_DIR$/caroussel.php" />
         <option value="$PROJECT_DIR$/arena.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/perteBadge.html" />
+=======
         <option value="$PROJECT_DIR$/funcGetEnemy.php" />
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
       </list>
     </option>
   </component>
@@ -255,12 +301,24 @@
       <workItem from="1522932806912" duration="29889000" />
 =======
       <workItem from="1522932806912" duration="26741000" />
+<<<<<<< HEAD
+      <workItem from="1523006606654" duration="1719000" />
+=======
       <workItem from="1523007437791" duration="424000" />
 >>>>>>> 08b9e7d450a4200d823ed7c866601f07d73af778
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="28460000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="166" y="57" width="1857" height="1092" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18131565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="29889000" />
 =======
@@ -272,6 +330,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17824967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -306,6 +365,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testperso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="108" lean-forward="false" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caroussel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arena.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Quête PHP non corrigée/UploadFile/affichage.php" />
+    <entry file="file://$PROJECT_DIR$/charChoice.php">
+=======
         <state relative-caret-position="231">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
@@ -313,6 +414,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data.php">
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -322,17 +424,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testperso.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="267">
+          <caret line="142" column="20" lean-forward="false" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+=======
         <state relative-caret-position="63">
           <caret line="3" column="108" lean-forward="false" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
           <folding />
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caroussel.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="303">
+          <caret line="170" column="20" lean-forward="false" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
+=======
         <state relative-caret-position="126">
           <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
         </state>
       </provider>
     </entry>
@@ -358,6 +470,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="41" column="21" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="41" selection-end-column="21" />
+<<<<<<< HEAD
+          <folding />
+=======
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
         </state>
       </provider>
     </entry>
@@ -382,6 +498,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+<<<<<<< HEAD
+=======
         </state>
       </provider>
     </entry>
@@ -402,6 +520,7 @@
         <state relative-caret-position="294">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
         </state>
       </provider>
     </entry>
@@ -419,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -461,8 +579,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/caroussel.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="108">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testperso.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="108" lean-forward="false" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
+=======
 <<<<<<< HEAD
         <state relative-caret-position="18">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
@@ -485,6 +623,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
           <folding />
         </state>
       </provider>
@@ -507,6 +646,19 @@
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/arena.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="576">
+          <caret line="95" column="3" lean-forward="false" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perteBadge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="73" lean-forward="false" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <folding />
+=======
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
@@ -521,6 +673,7 @@
             <marker date="1523009264038" expanded="true" signature="4649:4992" ph="..." />
             <marker date="1523009264038" expanded="true" signature="4730:4825" ph="..." />
           </folding>
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
         </state>
       </provider>
     </entry>

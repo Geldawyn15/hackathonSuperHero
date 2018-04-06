@@ -25,8 +25,11 @@ if ($_SERVER['REQUEST_METHOD'] == "GET" ){
 }
 
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
 
 if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
 
