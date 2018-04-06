@@ -10,6 +10,7 @@ class heroes
     public $dodge;
     public $id;
     public $dodged;
+    public $currentHealth;
 
     public $name;
     public $intelligence;
@@ -38,17 +39,19 @@ class heroes
 
     public function dodge($target){
         $roll = rand(1, 100);
-        var_dump($roll);
         if ($roll > $target->dodge){
             $dodge = 0;
         }elseif ($roll < $target->dodge){
             $dodge = 1;
         }return $dodge;
     }
-    public function attack($target, $attacker){
-        $target->health = $target->health - $attacker->attack;
+    public function attack($attacker, $target){
+        $target->currentHealth = $target->health - $attacker->attack;
         return $target->health;
-}
+    }
+    public function getImage(){
+    return $this->image;
+    }
 
     public function getStats(){
         $img = '<img src= "'.$this->image.'"  />' . "<br>";
