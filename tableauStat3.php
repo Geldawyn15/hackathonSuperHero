@@ -30,14 +30,24 @@
     </div>
 </div>
 
+
 <div class="container">
     <div class="row">
-        <div class="col-md-5 offset-1">
-            <a href="perteBadge.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">L'aventure continu.</a>
-        </div>
-        <div class="col-md-5 offset-1">
-            <a href="gameOver.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Game Over.</a>
-        </div>
+        <?php
+        if (isset($_GET['player']) && $_GET['player'] == 'enemy' ) {
+            ?>
+
+            <div class="col-md-5 offset-1">
+                <a href="winner.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">L'aventure continue.</a>
+            </div>
+
+        <?php }else{ ?>
+
+            <div class="col-md-5 offset-1">
+                <a href="gameOver.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Game Over.</a>
+            </div>
+
+        <?php } ?>
     </div>
 </div>
 </body>
