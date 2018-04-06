@@ -6,9 +6,10 @@
     text-align: center;
 }
 body{
-    background-image: url(https://i.imgur.com/RI1N4ep.jpg?2);
+    /*background-image: url(https://i.imgur.com/RI1N4ep.jpg?2);
     background: cover;
-
+    */
+    background-color: green;
 }
 .btn{
     margin-left: 45%;
