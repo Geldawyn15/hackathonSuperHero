@@ -26,7 +26,10 @@ if ($_SERVER['REQUEST_METHOD'] == "GET" ){
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba93fe20dc7fcd3200c861b154e78aa118984f69
 if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
 
     $turn = $_SESSION['turn'];
