@@ -1,21 +1,75 @@
 <?php
-//include "combat.php";
-require 'test.php';
 
-$turn = 0;
 
-if ($turn == 0){
-    $attacker = $testChar;
-    $target = $enemy;
-}elseif ($turn == 1){
-    $attacker = $enemy;
-    $target = $testChar;
+require 'data.php';
+require 'class.php';
+
+
+//require 'test.php';
+
+$charaPlayer = intval($_SESSION['mainCharacter']);
+
+$mainPlayer = new Heroes($realData[$charaPlayer]);
+$enemy2 = new Heroes ($realData[$_SESSION['enemy2']['id']]);
+
+
+
+
+
+if ($_SERVER['REQUEST_METHOD'] == "GET" ){
+    unset($_SESSION['enemyHealthCurrent']);
+    unset($_SESSION['userHealthCurrent']);
+
+    $_SESSION['turn'] = 0;
+
 }
-$dodge = $target->dodge($target);
-if ($dodge == 0) {
-    echo $attacker->attack($attacker, $target);
-}else {
-    $healthCurrent = $target->health;
+
+
+
+
+
+if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
+
+    $turn = $_SESSION['turn'];
+    if ($turn == 0){
+        $attacker = $mainPlayer;
+        $target = $enemy2;
+        $turn++;
+        $_SESSION['turn'] = $turn;
+        if (isset($_SESSION['enemyHealthCurrent'])){
+            $target->currentHealth = $_SESSION['enemyHealthCurrent'];
+        }
+        $dodge = $target->dodge($target);
+        if ($dodge == 0) {
+            $target->currentHealth = $target->currentHealth - $attacker->attack;
+            if ($target->currentHealth <= 0){
+                $target->currentHealth = 0;
+                header('Location: tableauStat2.php?player=enemy');
+            }
+            $_SESSION['enemyHealthCurrent'] = $target->currentHealth;
+        }
+
+    }
+    if ($turn == 1){
+        $attacker = $enemy2;
+        $target = $mainPlayer;
+        $turn--;
+        $_SESSION['turn'] = $turn;
+        if (isset($_SESSION['userHealthCurrent'])){
+            $target->currentHealth = $_SESSION['userHealthCurrent'];
+        }
+        $dodge = $target->dodge($target);
+        if ($dodge == 0) {
+            $target->currentHealth = $target->currentHealth - $attacker->attack;
+            if ($target->currentHealth <= 0){
+                $target->currentHealth = 0;
+                header('Location: tableauStat2.php?player=player');
+            }
+            $_SESSION['userHealthCurrent'] = $target->currentHealth;
+
+        }
+    }
+
 }
 
 
@@ -33,25 +87,30 @@ if ($dodge == 0) {
 <h1 class="arena">Bienvenue dans l'arène</h1>
 <div class="container">
     <div class="row">
-        <div class="col-md-5 offset-1">
+        <div class="col-md-2">
             <div class="card" style="width: 18rem;">
-                <p class="name">martin</p>
-                <img class="card-img-top" src= "<?php echo $testChar->image; ?>" alt= "Card image cap">
+                <p class="name"><?= $mainPlayer->name ?></p>
+                <img class="card-img-top" src= "<?php echo $mainPlayer->image; ?>" alt= "Card image cap">
                 <div class="card-body">
                     <table class="table">
                         <thead>
                         <tr>
-                            <th scope="col">Vie en cour</th>
-                            <th scope="col">Vie total</th>
+                            <th scope="col">Vie en cours</th>
+                            <th scope="col">Vie totale</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td scope="col">
-                                <?php echo $testChar->currentHealth;?>
+                                <?php if (isset($_SESSION['userHealthCurrent'])) {
+                                    echo $_SESSION['userHealthCurrent'];
+                                }else{
+                                    echo $mainPlayer->health;
+                                }
+                                ?>
                             </td>
                             <td scope="col">
-                                <?php echo $testChar->health;?>
+                                <?php echo $mainPlayer->health;?>
                             </td>
                         </tr>
                         </tbody>
@@ -59,39 +118,42 @@ if ($dodge == 0) {
                 </div>
             </div>
         </div>
-        <div class="col-md-5 offset-1">
+        <div class="col-md-1 offset-3">
+            <div>
+                <form action="" method="post">
+                    <input type="submit" class="btn " value="Attack" name="Attack">
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 offset-2">
             <div class="card" style="width: 18rem;">
-                <p class="name">martin</p>
-                <img class="card-img-top" src="<?php echo $enemy->image; ?>" alt="Card image cap">
+                <p class="name"><?= $enemy2->name ?></p>
+                <img class="card-img-top" src="<?php echo $enemy2->image; ?>" alt="Card image cap">
                 <div class="card-body">
                     <table class="table">
                         <thead>
                         <tr>
-                            <th scope="col">Vie en cour</th>
-                            <th scope="col">Vie total</th>
+                            <th scope="col">Vie en cours</th>
+                            <th scope="col">Vie totale</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td scope="col">
-                                <?php echo $target->health;?>
+                                <?php  if (isset ($_SESSION['enemyHealthCurrent'])){
+                                    echo $_SESSION['enemyHealthCurrent'];
+                                } else {
+                                    echo $enemy2->health;
+                                } ;?>
                             </td>
                             <td scope="col">
-                                <?php echo $enemy->health;?>
+                                <?php echo $enemy2->health;?>
                             </td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-7 offset-5">
-            <a href="tableauStat2.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Statistique.</a>
         </div>
     </div>
 </div>

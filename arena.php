@@ -4,12 +4,15 @@
 require 'data.php';
 require 'class.php';
 
+
 //require 'test.php';
 
 $charaPlayer = intval($_SESSION['mainCharacter']);
-var_dump(($_SESSION['mainCharacter']));
-$mainPlayer = new Heroes($realData[$charaPlayer]);
 
+$mainPlayer = new Heroes($realData[$charaPlayer]);
+$enemy1 = new Heroes ($realData[$_SESSION['enemy1']['id']]);
+
+$looser='';
 
 
 
@@ -30,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
     $turn = $_SESSION['turn'];
     if ($turn == 0){
         $attacker = $mainPlayer;
-        $target = $enemy;
+        $target = $enemy1;
         $turn++;
         $_SESSION['turn'] = $turn;
         if (isset($_SESSION['enemyHealthCurrent'])){
@@ -41,13 +44,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
             $target->currentHealth = $target->currentHealth - $attacker->attack;
             if ($target->currentHealth <= 0){
                 $target->currentHealth = 0;
+                header('Location: tableauStat.php?player=enemy');
             }
             $_SESSION['enemyHealthCurrent'] = $target->currentHealth;
         }
 
     }
     if ($turn == 1){
-        $attacker = $enemy;
+        $attacker = $enemy1;
         $target = $mainPlayer;
         $turn--;
         $_SESSION['turn'] = $turn;
@@ -59,6 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
             $target->currentHealth = $target->currentHealth - $attacker->attack;
             if ($target->currentHealth <= 0){
                 $target->currentHealth = 0;
+                header('Location: tableauStat.php?player=player');
             }
             $_SESSION['userHealthCurrent'] = $target->currentHealth;
 
@@ -84,14 +89,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
     <div class="row">
         <div class="col-md-2">
             <div class="card" style="width: 18rem;">
-                <p class="name">matin</p>
+                <p class="name"><?= $mainPlayer->name ?></p>
                 <img class="card-img-top" src= "<?php echo $mainPlayer->image; ?>" alt= "Card image cap">
                 <div class="card-body">
                     <table class="table">
                         <thead>
                         <tr>
-                            <th scope="col">Vie en cour</th>
-                            <th scope="col">Vie total</th>
+                            <th scope="col">Vie en cours</th>
+                            <th scope="col">Vie totale</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -122,14 +127,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
         </div>
         <div class="col-md-4 offset-2">
             <div class="card" style="width: 18rem;">
-                <p class="name">martin</p>
-                <img class="card-img-top" src="<?php echo $enemy->image; ?>" alt="Card image cap">
+                <p class="name"><?= $enemy1->name ?></p>
+                <img class="card-img-top" src="<?php echo $enemy1->image; ?>" alt="Card image cap">
                 <div class="card-body">
                     <table class="table">
                         <thead>
                         <tr>
-                            <th scope="col">Vie en cour</th>
-                            <th scope="col">Vie total</th>
+                            <th scope="col">Vie en cours</th>
+                            <th scope="col">Vie totale</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -138,11 +143,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
                                 <?php  if (isset ($_SESSION['enemyHealthCurrent'])){
                                     echo $_SESSION['enemyHealthCurrent'];
                                 } else {
-                                    echo $enemy->health;
+                                    echo $enemy1->health;
                                 } ;?>
                             </td>
                             <td scope="col">
-                                <?php echo $enemy->health;?>
+                                <?php echo $enemy1->health;?>
                             </td>
                         </tr>
                         </tbody>
@@ -152,16 +157,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
         </div>
     </div>
 </div>
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-7 offset-5">
-            <a href="tableauStat.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Statistique.</a>
-        </div>
-    </div>
-</div>
-
 
 
 </body>

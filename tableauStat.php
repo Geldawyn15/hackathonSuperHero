@@ -1,3 +1,10 @@
+<?php
+require_once 'class.php';
+require_once 'arena.php';
+
+$mainPlayer = new Heroes($realData[$charaPlayer]);
+$enemy1 = new Heroes ($realData[$_SESSION['enemy1']['id']]);
+?>
 <!DOCTYPE html>
 <html>
 
@@ -16,14 +23,14 @@
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
                 <p class="name">Vainqueur: martin</p>
-                <img class="card-img-top" src="http://via.placeholder.com/350x150" alt= "Card image cap">
+                <img class="card-img-top" src="<?= $mainPlayer->image ?>" alt= "Card image cap">
                 <p class="vie">Il reste ..... de vie au héro.</p>
             </div>
         </div>
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
                 <p class="name">Perdant: martin</p>
-                <img class="card-img-top" src="http://via.placeholder.com/350x150" alt= "Card image cap">
+                <img class="card-img-top" src="<?= $enemy->image?>" alt= "Card image cap">
                 <p class="vie">Le héro a été vaincu.</p>
             </div>
         </div>
@@ -32,12 +39,21 @@
 
 <div class="container">
     <div class="row">
+        <?php
+        if (isset($_GET['player']) && $_GET['player'] == 'enemy' ) {
+?>
+
         <div class="col-md-5 offset-1">
-            <a href="perteBadge.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">L'aventure continu.</a>
+            <a href="perteBadge.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">L'aventure continue.</a>
         </div>
-        <div class="col-md-5 offset-1">
+
+<?php }else{ ?>
+
+       <div class="col-md-5 offset-1">
             <a href="gameOver.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Game Over.</a>
         </div>
+
+    <?php } ?>
     </div>
 </div>
 </body>

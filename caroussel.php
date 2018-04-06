@@ -1,10 +1,17 @@
 <?php
 require 'data.php';
+require_once 'funcGetEnemy.php';
 
 if (isset($_GET['id_user_char'])) {
      $_SESSION['mainCharacter'] = $_GET['id_user_char'];
+     $_SESSION['enemy1'] = getRandomEnemy($realData, 200, 250);
+     $_SESSION['enemy2'] = getRandomEnemy($realData, 250, 300);
+     $_SESSION['enemy3'] = getRandomEnemy($realData, 300, 350);
 }
-var_dump($_SESSION['mainCharacter']);
+var_dump()
+var_dump($_SESSION['enemy1']);
+var_dump($_SESSION['enemy2']);
+var_dump($_SESSION['enemy3']);
 ?>
 
 

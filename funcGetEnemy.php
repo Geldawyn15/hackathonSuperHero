@@ -19,13 +19,13 @@ function getRandomEnemy(array $da, int $statMin, int $statMax)
         }
     }
 
-    if ($statMin == 400) {
+    if ($statMin == 200) {
         $randEnemy = rand(1, 62);
         $rslt = $selectedHeores[$randEnemy];
-    } elseif ($statMin == 450) {
+    } elseif ($statMin == 250) {
         $randEnemy = rand(1, 43);
         $rslt = $selectedHeores[$randEnemy];
-    } elseif ($statMin == 500) {
+    } elseif ($statMin == 300) {
         $randEnemy = rand(1, 25);
         $rslt = $selectedHeores[$randEnemy];
     }
