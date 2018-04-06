@@ -6,13 +6,14 @@ require 'class.php';
 
 
 //require 'test.php';
-
+$message2 = '';
 $charaPlayer = intval($_SESSION['mainCharacter']);
 
 $mainPlayer = new Heroes($realData[$charaPlayer]);
 $enemy1 = new Heroes ($realData[$_SESSION['enemy1']['id']]);
 
 $looser='';
+$message='';
 
 
 
@@ -25,11 +26,6 @@ if ($_SERVER['REQUEST_METHOD'] == "GET" ){
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 13736945c420f13d10b3e1e0e2b073737a9aa4af
 
 if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
 
@@ -45,6 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
         $dodge = $target->dodge($target);
         if ($dodge == 0) {
             $target->currentHealth = $target->currentHealth - $attacker->attack;
+            $message2 = "L'ennemi a pris $attacker->attack points de dégâts";
             if ($target->currentHealth <= 0){
                 $target->currentHealth = 0;
                 header('Location: tableauStat.php?player=enemy');
@@ -64,6 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
         $dodge = $target->dodge($target);
         if ($dodge == 0) {
             $target->currentHealth = $target->currentHealth - $attacker->attack;
+            $message = "vous avez pris $attacker->attack points de dégâts";
             if ($target->currentHealth <= 0){
                 $target->currentHealth = 0;
                 header('Location: tableauStat.php?player=player');
@@ -88,6 +86,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
 
 <body>
 <h1 class="arena">Bienvenue dans l'arène</h1>
+<h2 style="color: red" class="infoMessage"> <?= $message ?> </h2>
+<h2 style="color: green" class="infoMessage"> <?= $message2 ?> </h2>
 <div class="container">
     <div class="row">
         <div class="col-md-2">

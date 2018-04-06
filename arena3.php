@@ -11,7 +11,8 @@ $charaPlayer = intval($_SESSION['mainCharacter']);
 
 $mainPlayer = new Heroes($realData[$charaPlayer]);
 $enemy3 = new Heroes ($realData[$_SESSION['enemy3']['id']]);
-
+$message='';
+$message2= '';
 
 
 
@@ -42,6 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
         $dodge = $target->dodge($target);
         if ($dodge == 0) {
             $target->currentHealth = $target->currentHealth - $attacker->attack;
+            $message2 = "L'ennemi a pris $attacker->attack points de dégâts";
             if ($target->currentHealth <= 0){
                 $target->currentHealth = 0;
                 header('Location: tableauStat3.php?player=enemy');
@@ -61,6 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
         $dodge = $target->dodge($target);
         if ($dodge == 0) {
             $target->currentHealth = $target->currentHealth - $attacker->attack;
+            $message = "vous avez pris $attacker->attack points de dégâts";
             if ($target->currentHealth <= 0){
                 $target->currentHealth = 0;
                 header('Location: tableauStat3.php?player=player');
@@ -85,6 +88,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
 
 <body>
 <h1 class="arena">Bienvenue dans l'arène</h1>
+<h2 style="color: red" class="infoMessage"> <?= $message ?> </h2>
+<h2 style="color: lawngreen" class="infoMessage"> <?= $message2 ?> </h2>
 <div class="container">
     <div class="row">
         <div class="col-md-2">
