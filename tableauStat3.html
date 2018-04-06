@@ -8,67 +8,38 @@
 </head>
 
 <body>
-<h1 class="arena">Bienvenue dans l'arène</h1>
+<h1 class="title">Statistiques du combat</h1>
+
+
 <div class="container">
     <div class="row">
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
-                <p class="name">martin</p>
-                <img class="card-img-top" src= "<?php echo $testChar->image; ?>" alt= "Card image cap">
-                <div class="card-body">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th scope="col">Vie en cour</th>
-                            <th scope="col">Vie total</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td scope="col">
-                                <?php echo $testChar->currentHealth;?>
-                            </td>
-                            <td scope="col">
-                                <?php echo $testChar->health;?>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <p class="name">Vainqueur: martin</p>
+                <img class="card-img-top" src="http://via.placeholder.com/350x150" alt= "Card image cap">
+                <p class="vie">Il reste ..... de vie au héro.</p>
             </div>
         </div>
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
-                <p class="name">martin</p>
-                <img class="card-img-top" src="<?php echo $enemy->image; ?>" alt="Card image cap">
-                <div class="card-body">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th scope="col">Vie en cour</th>
-                            <th scope="col">Vie total</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td scope="col">
-                                <?php echo $target->health;?>
-                            </td>
-                            <td scope="col">
-                                <?php echo $enemy->health;?>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <p class="name">Perdant: martin</p>
+                <img class="card-img-top" src="http://via.placeholder.com/350x150" alt= "Card image cap">
+                <p class="vie">Le héro a été vaincu.</p>
             </div>
         </div>
     </div>
 </div>
 
-
-
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 offset-1">
+            <a href="winner.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">You Win.</a>
+        </div>
+        <div class="col-md-5 offset-1">
+            <a href="gameOver.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Game Over.</a>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>

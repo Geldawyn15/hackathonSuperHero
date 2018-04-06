@@ -89,6 +89,14 @@ if ($dodge == 0) {
 </div>
 
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 offset-5">
+            <a href="tableauStat.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Statistique.</a>
+        </div>
+    </div>
+</div>
+
 
 
 </body>
