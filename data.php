@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
 <?php
 
 require 'vendor/autoload.php';
@@ -12,4 +14,7 @@ $data = $rslt->getContents();
 
 $dataArray = json_decode($data, true);
 
-// $dataArray est un tableau qui contient toutes les données des héros
+$realData = [];
+foreach ($dataArray as $key => $v) {
+    $realData[$v['id']] = $v;
+}

@@ -1,6 +1,13 @@
 <?php
 
 session_start();
+require 'data.php';
+require 'class.php';
+//require 'test.php';
+
+$charaPlayer = intval($_SESSION['mainCharacter']);
+
+session_start();
 
 if ($_SERVER['REQUEST_METHOD'] == "GET" ){
    $_SESSION = [];
@@ -10,7 +17,6 @@ if ($_SERVER['REQUEST_METHOD'] == "GET" ){
 
 
 require 'test.php';
-
 
 
 if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
@@ -141,6 +147,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['Attack'])){
     </div>
 </div>
 
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 offset-5">
+            <a href="tableauStat.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Statistique.</a>
+        </div>
+    </div>
+</div>
 
 
 
