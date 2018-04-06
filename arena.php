@@ -1,6 +1,12 @@
 <?php
+session_start();
+require 'data.php';
+require 'class.php';
+//require 'test.php';
+
+$charaPlayer = intval($_SESSION['mainCharacter']);
+
 //include "combat.php";
-require 'test.php';
 
 $turn = 0;
 

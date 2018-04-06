@@ -1,7 +1,7 @@
 <?php
 require_once 'data.php';
-$mainCharacter = [$dataArray[9], $dataArray[52], $dataArray[257], $dataArray[550], $dataArray[435],
-$dataArray[191], $dataArray[313], $dataArray[325], $dataArray[365], $dataArray[412], $dataArray[490], $dataArray[464]];
+$mainCharacter = [$realDataArray[9], $realDataArray[52], $realDataArray[257], $realDataArray[550], $realDataArray[435],
+$realDataArray[191], $realDataArray[313], $realDataArray[325], $realDataArray[365], $realDataArray[412], $realDataArray[490], $realDataArray[464]];
 ?>
 
 <! DOCTYPE html>
@@ -26,6 +26,8 @@ foreach ($mainCharacter as $toto) {
     $dur = $toto['powerstats']['durability'];
     $pow = $toto['powerstats']['power'];
     $cmb = $toto['powerstats']['combat'];
+
+
 ?>
 
 <div class="col-md-3 offset-1">
