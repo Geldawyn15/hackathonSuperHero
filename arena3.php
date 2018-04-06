@@ -1,12 +1,6 @@
 <?php
-session_start();
-require 'data.php';
-require 'class.php';
-//require 'test.php';
-
-$charaPlayer = intval($_SESSION['mainCharacter']);
-
 //include "combat.php";
+require 'test.php';
 
 $turn = 0;
 
@@ -94,15 +88,13 @@ if ($dodge == 0) {
     </div>
 </div>
 
-
 <div class="container">
     <div class="row">
         <div class="col-md-7 offset-5">
-            <a href="tableauStat.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Statistique.</a>
+            <a href="tableauStat3.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Statistique.</a>
         </div>
     </div>
 </div>
-
 
 
 </body>

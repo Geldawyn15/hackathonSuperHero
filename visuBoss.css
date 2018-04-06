@@ -11,7 +11,10 @@ body {
     color: white;
     text-align: center;
     font-size: 40px;
-    margin-top: 500px;
+    margin-top: 600px;
     background-color: rgba(177, 182, 191, 0.7);
     border-radius: 1rem;
+}
+.btn{
+    margin-left: 45%;
 }
