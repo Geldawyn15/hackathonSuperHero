@@ -5,6 +5,8 @@ require 'class.php';
 //require 'test.php';
 
 $charaPlayer = intval($_SESSION['mainCharacter']);
+$mainPlayer = new heroes($realData[$charaPlayer]);
+
 
 //include "combat.php";
 

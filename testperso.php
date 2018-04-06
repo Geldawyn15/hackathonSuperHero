@@ -1,7 +1,7 @@
 <?php
 require_once 'data.php';
-$mainCharacter = [$realDataArray[9], $realDataArray[52], $realDataArray[257], $realDataArray[550], $realDataArray[435],
-$realDataArray[191], $realDataArray[313], $realDataArray[325], $realDataArray[365], $realDataArray[412], $realDataArray[490], $realDataArray[464]];
+$mainCharacter = [$realData[11], $realData[354], $realData[604], $realData[639], $realData[571],
+$realData[263], $realData[70], $realData[422], $realData[484], $realData[543], $realData[717], $realData[435]];
 ?>
 
 <! DOCTYPE html>
