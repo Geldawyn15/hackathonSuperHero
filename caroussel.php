@@ -30,13 +30,13 @@ if (isset($_GET['id_user_char'])) {
         <div class="carousel-item active">
             <img class="d-block w-100" src="https://i.imgur.com/oTTmkLF.jpg?1" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                <p class="sloganCaroussel">6:30 Notre héro se reveille, il doit rapidement se mettre en route pour rejoindre la Wild Code School, dernier endroit sûr sur cette planète, avant la nuit.</p>
+                <p class="sloganCaroussel">6:30 Notre héro se réveille, il doit rapidement se mettre en route pour rejoindre la Wild Code School, dernier endroit sûr sur cette planète, avant la nuit.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="https://i.imgur.com/Hufpqro.jpg?1" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-                <p class="sloganCaroussel">Le chemin s'annonce dangereux depuis que les JS dominent le monde.</p>
+                <p class="sloganCaroussel">Le chemin s'annonce dangereux. Depuis que les JS dominent le monde les rues ne sont plus sûres.</p>
             </div>
         </div>
         <div class="carousel-item">
