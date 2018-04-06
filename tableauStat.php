@@ -1,7 +1,5 @@
 <?php
 require_once 'class.php';
-require_once 'arena.php';
-
 $mainPlayer = new Heroes($realData[$charaPlayer]);
 $enemy1 = new Heroes ($realData[$_SESSION['enemy1']['id']]);
 ?>
