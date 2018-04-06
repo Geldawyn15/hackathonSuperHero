@@ -44,7 +44,7 @@ if (isset($_GET['id_user_char'])) {
         <div class="carousel-item">
             <img class="d-block w-100" src="https://i.imgur.com/yW5uWpL.jpg?1" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
-                <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Tu n'es pas sûr de chemin à prendre, tu pars a la recherche d'une carte.</a>
+                <a href="beforeFirstFight.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Tu n'es pas sûr de chemin à prendre, tu pars a la recherche d'une carte.</a>
                 <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Tu as le sens de l'orientation, direction tout droit.</a>
             </div>
         </div>

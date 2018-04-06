@@ -1,3 +1,25 @@
+<?php
+//include "combat.php";
+require 'test.php';
+
+$turn = 0;
+
+if ($turn == 0){
+    $attacker = $testChar;
+    $target = $enemy;
+}elseif ($turn == 1){
+    $attacker = $enemy;
+    $target = $testChar;
+}
+$dodge = $target->dodge($target);
+if ($dodge == 0) {
+    echo $attacker->attack($attacker, $target);
+}else {
+    $healthCurrent = $target->health;
+}
+
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -14,7 +36,7 @@
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
                 <p class="name">martin</p>
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src= "<?php echo $testChar->image; ?>" alt= "Card image cap">
                 <div class="card-body">
                     <table class="table">
                         <thead>
@@ -26,10 +48,10 @@
                         <tbody>
                         <tr>
                             <td scope="col">
-                                50
+                                <?php echo $testChar->currentHealth;?>
                             </td>
                             <td scope="col">
-                                100
+                                <?php echo $testChar->health;?>
                             </td>
                         </tr>
                         </tbody>
@@ -40,7 +62,7 @@
         <div class="col-md-5 offset-1">
             <div class="card" style="width: 18rem;">
                 <p class="name">martin</p>
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="<?php echo $enemy->image; ?>" alt="Card image cap">
                 <div class="card-body">
                     <table class="table">
                         <thead>
@@ -52,10 +74,10 @@
                         <tbody>
                         <tr>
                             <td scope="col">
-                                90
+                                <?php echo $target->health;?>
                             </td>
                             <td scope="col">
-                                100
+                                <?php echo $enemy->health;?>
                             </td>
                         </tr>
                         </tbody>

@@ -2,7 +2,7 @@
     font-size: 40px;
     background-color: rgba(177, 182, 191, 0.7);
     border-radius: 1rem;
-    margin-top: 350px;
+    margin-top: 300px;
     text-align: center;
 }
 
@@ -15,4 +15,8 @@ h1{
     font-size: 300px;
     font-family: 'VT323';
     text-align:center;
+}
+.btn {
+    margin-left: 40%;
+    margin-bottom: 10px;
 }
