@@ -1,0 +1,18 @@
+body{
+    background-image: url("https://i.imgur.com/yHIKBuM.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.title{
+    text-align: center;
+    margin-top: 200px;
+    color:rgb(178,34,34);
+    font-size: 200px;
+    font-family: 'VT323';
+    text-align:center;
+}
+.btn{
+    margin-top:300px;
+    margin-left: 50px;
+}
+

@@ -1,5 +1,7 @@
-<?php
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
 
+<?php
+session_start();
 require 'vendor/autoload.php';
 
 $client = new GuzzleHttp\Client([
@@ -12,4 +14,7 @@ $data = $rslt->getContents();
 
 $dataArray = json_decode($data, true);
 
-// $dataArray est un tableau qui contient toutes les données des héros
+$realData = [];
+foreach ($dataArray as $key => $v) {
+    $realData[$v['id']] = $v;
+}
